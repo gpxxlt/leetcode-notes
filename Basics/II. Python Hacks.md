@@ -1,5 +1,5 @@
+#Lambda #Hof #Structs
 ### Structures
-#Struct #LinkedList 
 Use classes to declare a C-like struct. 
 ```python
 '''
@@ -16,7 +16,6 @@ class Node:
 ###### Reference
 1. https://www.geeksforgeeks.org/singly-linked-list-in-python/
 ### Lambda Expression
-#Lambda #Cpp 
 A lambda function is a small anonymous function that can take any number of arguments, but can only have **one expression**. This is different from C++ where we can declare local variables in lambda functions.
 ```python
 '''
@@ -30,7 +29,6 @@ evenOdds = lambda num: "Even number" if num % 2 == 0 else "Odd number"
 1. https://www.w3schools.com/python/python_lambda.asp
 2. https://www.geeksforgeeks.org/python-lambda/
 ### Higher-order Functions
-#Hof #Map #Reduce #Filter #FunctionalProgramming #Zip #Enum
 Recall in functional programming, we treat functions as values. That is, functions can be passed as a parameter of another function.
 ```python
 def plus(input): 
