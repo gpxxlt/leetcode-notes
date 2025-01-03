@@ -83,6 +83,7 @@ for tup in enumerate(words):
 #	(0, 'hello')
 #	(1, 'world')
 ```
+---
 ###### Reference
 1. https://www.geeksforgeeks.org/higher-order-functions-in-python/
 2. https://www.w3schools.com/python/ref_func_zip.asp
