@@ -1,4 +1,4 @@
-#Lambda #Hof #Structs
+#Lambda #Hof #Struct 
 ### Structures
 Use classes to declare a C-like struct. 
 ```python
@@ -83,6 +83,16 @@ for tup in enumerate(words):
 #	(0, 'hello')
 #	(1, 'world')
 ```
+
+###### Note 
+1. All the above function above output containers that can be iterated (that is, can be looped through), but cannot be accessed via `[]` operator. 
+2. Lambda expression in python cannot pattern match. However, we can still operate on `tuple` or `list` objects (by letting python know input is a list). For example,
+```python
+L = [[1, 2, 3]]
+M = list(map(lambda x : x[1] + x[2], L))
+print(M) # Output: 5
+```
+
 ---
 ###### Reference
 1. https://www.geeksforgeeks.org/higher-order-functions-in-python/

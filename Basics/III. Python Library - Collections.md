@@ -61,7 +61,7 @@ Elements in an `OrderedDict` instance are ***sorted by the order they are insert
 ##### Summary
 1. Equivalence. Two `OrderedDict` objects are ***equal*** if they have 1) same key-val pairs; 2) same ordering. Note that for 2 python vanilla dictionaries to be equal 2) is not necessary.
 2. Reversal. Reversing an `OrderedDict` object requires $O(n)$ of both time and space complexity. 
-3. `popitem()`: By passing different args to `popitem()`, `OrderedDict` can behave similar (LIFO or FIFO) to either **stack** or **queue.** See [[III. List-like Structures]] for details.
+3. `popitem()`: By passing different args to `popitem()`, `OrderedDict` can behave similar (LIFO or FIFO) to either **stack** or **queue.** See [[II. List-like Structures]] for details.
 4. `move_to_end`: Items in an `OrderedDict` can be ***moved*** to the end or beginning due to order preservation.
 ##### Note
 1. In python 3.7 and later versions, insertion order of vanilla dictionary (aka, `dict` instances) is preserved. 
@@ -96,7 +96,7 @@ my_dict.move_to_end('two', last=False)  # Move 'two' to the beginning
 1. Example and comparison with python vanilla dicts: https://www.geeksforgeeks.org/ordereddict-in-python/
 2. Official Documentation: https://docs.python.org/3/library/collections.html#collections.OrderedDict
 ### 4. DefaultDict
-Create a dictionary with **default values** for keys. **Type** of default values need be specified before a `DefaultDict` instance is materialized. `Defaultdict` has same operations as `dict` with same time complexity because it is a **subclass** of dict.
+Create a dictionary with **default values** for keys. **Type** of default values need be specified before a `defaultdict` instance is materialized. `defaultdict` has same operations as `dict` with same time complexity because it is a **subclass** of dict.
 ##### Reference
 1. Examples: https://www.geeksforgeeks.org/defaultdict-in-python/
 2. Official Documentation: https://docs.python.org/3/library/collections.html#defaultdict-objects

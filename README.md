@@ -9,3 +9,10 @@ This is my algorithm notes for leetcode, school, and interview prep. This note i
 - [ ] Binary Tree
 - [ ] List-like structure: Stack, Queue, PQ
 - [ ] Dynamic Programming
+
+### External Resources
+1. Python Interview Questions https://www.w3schools.com/python/python_interview_questions.asp
+2. Python Built-in Methods https://www.w3schools.com/python/python_reference.asp
+3. Python Build-in Methods Time Complexity https://www.geeksforgeeks.org/complexity-cheat-sheet-for-python-operations/
+4. Python Collections Library https://www.geeksforgeeks.org/python-collections-module/
+5. 15-112 CS Academy https://cs3-112-f22.academy.cs.cmu.edu/course/cs3-22
