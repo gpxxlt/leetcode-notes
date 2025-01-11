@@ -1,2 +1,6 @@
 
-binary search trees, min/max heaps, augmented bsts
+Binary Search Trees
+
+Augmented BSTs
+
+Staging (210)
